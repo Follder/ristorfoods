@@ -1,0 +1,392 @@
+body {
+  background-image: url(../images/texture-bg-02.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  background-position-x: center;
+  margin: 0;
+  padding: 0;
+}
+
+.h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #6a6a6a;
+}
+
+.h3 {
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin: 0.5em auto;
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  margin: 0 1rem;
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+}
+
+.navbar-brand img {
+  display: block;
+  width: 200px;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  background-image: url(../images/ristor-bg.jpg);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.main-image-content {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+.main-image-content img {
+  max-width: 80%;
+}
+
+
+
+.text-orange {
+  color: #EF892B;
+}
+
+.btn-orange {
+  color: #fff;
+  background-color: #EF892B;
+  border-color: #EF892B;
+}
+
+.btn-callMe {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 1rem auto;
+}
+
+.block-oa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.our-advantages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 248, 248);
+  border-radius: 15px;
+  margin-top: -4rem;
+  width: 10rem;
+  height: 8rem;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.our-advantages img {
+
+  width: 100px;
+  height: 200px;
+  margin: 0 auto;
+  max-width: 30%;
+}
+
+.our-advantages-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+.our-advantages-item {
+  height: 150px;
+}
+
+@media (max-width: 576px) {
+  .our-advantages-item {
+    height: 250px;
+  }
+}
+
+.catalog-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.catalog-item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.3em;
+  width: 180px;
+  height: 120px;
+  background-color: #EF892B;
+  border-radius: 15px;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.text-small {
+  font-size: 1.1em!important;
+  font-weight: 600;
+}
+
+a.catalog-water:hover {
+  background-image: url("../images/catalog/01.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-oil:hover {
+  background-image: url("../images/catalog/02.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-flour:hover {
+  background-image: url("../images/catalog/03.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-pasta:hover {
+  background-image: url("../images/catalog/04.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-grocery:hover {
+  background-image: url("../images/catalog/05.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-cereals:hover {
+  background-image: url("../images/catalog/06.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-coffee:hover {
+  background-image: url("../images/catalog/07.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-spices:hover {
+  background-image: url("../images/catalog/08.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-tin:hover {
+  background-image: url("../images/catalog/09.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-fishtin:hover {
+  background-image: url("../images/catalog/10.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-other:hover {
+  background-image: url("../images/catalog/11.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-breakfast:hover {
+  background-image: url("../images/catalog/12.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-fish:hover {
+  background-image: url("../images/catalog/13.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-perm:hover {
+  background-image: url("../images/catalog/14.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-pastaItaly:hover {
+  background-image: url("../images/catalog/15.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-ragu:hover {
+  background-image: url("../images/catalog/16.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-risso:hover {
+  background-image: url("../images/catalog/17.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-olio:hover {
+  background-image: url("../images/catalog/18.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-aceto:hover {
+  background-image: url("../images/catalog/19.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-farine:hover {
+  background-image: url("../images/catalog/20.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-antipasti:hover {
+  background-image: url("../images/catalog/21.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-formaggi:hover {
+  background-image: url("../images/catalog/22.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-salumi:hover {
+  background-image: url("../images/catalog/23.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+
+a.catalog-scatola:hover {
+  background-image: url("../images/catalog/24.jpg");
+  background-size: cover;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+}
+/*
+.catalog-item a:hover {
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+  transition: 0.3s;
+  background-color: #ff9838;
+}
+*/
+.catalog-item-br {
+  display: block;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+}
+
+.white-block {
+  display: block;
+  background-color: #fff;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.white-form {
+  background-color: #fff;
+  border-radius: 35px;
+  padding: 3rem;
+  margin: 0 auto;
+}
+
+.fz-15 {
+  font-size: 1.4rem;
+}
+
+.footer {
+  background-color: #232639!important;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    text-align: center;
+  }
+}
+
+.footer h5 {
+  color: #FFA44B;
+  font-size: 1.5rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer a:hover {
+  color: #FFA44B;
+  transition: 0.3s;
+}
+
+.footer ul {
+  padding-left: 0;
+}
+
+.footer ul li {
+  list-style: none;
+}
+
+.footer img {
+  max-width: 100%;
+  display: block;
+  margin:  0 auto;
+}
+
+.contacts li {
+  margin: 25px 0;
+}
+
+.contacts li svg {
+  margin-right: 10px;
+}
+
+.mr-32 {
+  margin-left: 37px;
+}
+
+.margin-none {
+  margin: 0!important;
+}
+
+.thanks-h5 {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #6a6a6a;
+}
+
+.thanks-img {
+  max-width: 200px;
+  margin-top: 50px;
+}
+.mt-10 {
+  margin-top: 5em;
+}
